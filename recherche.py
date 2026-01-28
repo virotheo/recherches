@@ -42,8 +42,6 @@ print(recherche_dichotomique(cree_liste_decroissante(10),5))
 print(recherche_dichotomique(cree_liste_croissante(10),5))
 print("-----------------")
 
-from timeit import timeit
-
 setup = """
 from listes import cree_liste_croissante
 from __main__ import recherches, recherche_dichotomique
